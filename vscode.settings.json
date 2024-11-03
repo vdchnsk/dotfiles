@@ -1,0 +1,333 @@
+{
+  "C_Cpp.formatting": "clangFormat",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {},
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "javascriptreact",
+    "typescriptreact",
+    "markdown",
+    "HTML (Eex)",
+    "HTML"
+  ],
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showConstructors": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.symbolPath": "off",
+  "cSpell.autoFormatConfigFile": true,
+  "cSpell.enabled": true,
+  "cSpell.userWords": [
+    "keepdims",
+    "randn"
+  ],
+  "codeium.enableCodeLens": false,
+  "dart.closingLabels": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "dart.enableSdkFormatter": false,
+  "dart.flutterCustomEmulators": [
+    {
+      "args": [
+        "-avd",
+        "Pixel_2_API_30"
+      ],
+      "executable": "C:/Users/dicha/AppData/Local/Android/Sdk/emulator/emulator.exe",
+      "id": "Pixel_2_API_30",
+      "name": "Pixel 2 API 30"
+    }
+  ],
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "dart.openDevTools": "flutter",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorSurroundingLines": 8,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'Fira Code Light', 'Fira Code Medium', Consolas, 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.minimap.size": "fill",
+  "editor.padding.top": 8,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [],
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "errorLens.enabled": false,
+  "errorLens.enabledDiagnosticLevels": [
+    "error"
+  ],
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "go.formatTool": "gofmt",
+  "go.toolsManagement.autoUpdate": true,
+  "importCost.largePackageColor": "#c9c9c9",
+  "importCost.mediumPackageColor": "#adadad",
+  "importCost.showCalculatingDecoration": false,
+  "importCost.smallPackageColor": "#939393",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "kotlin.languageServer.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.color": "#26a69a",
+  "metaGo.decoration.backgroundOpacity": "1",
+  "metaGo.decoration.fontSize": 32,
+  "metaGo.decoration.height": 32,
+  "metaGo.decoration.hide.triggerKeyDownRepeatInterval": 800,
+  "metaGo.decoration.width": 15,
+  "metaGo.jumper.timeout": 9,
+  "npm.keybindingsChangedWarningShown": true,
+  "prettier.embeddedLanguageFormatting": "off",
+  "prettier.enable": false,
+  "prettier.enableDebugLogs": true,
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 120,
+  "prettier.proseWrap": "never",
+  "prettier.requireConfig": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "python.formatting.provider": "none",
+  "python.jediEnabled": false,
+  "python.languageServer": "Pylance",
+  "python.showStartPage": false,
+  "reactSnippets.settings.prettierEnabled": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.lens.implementations.enable": false,
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.defaultProfile.windows": "kali-linux (WSL)",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "'Fira Code Light',  'Fira Code Medium', Consolas, 'Courier New', monospace",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "args": [],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "GitBash": {
+      "icon": "terminal-bash",
+      "path": [
+        "E:\\Git\\Git\\bin\\bash.exe"
+      ]
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    },
+    "kali-linux (WSL)": {
+      "args": [
+        "-d",
+        "kali-linux"
+      ],
+      "path": "C:\\WINDOWS\\System32\\wsl.exe"
+    }
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "thunder-client.codeSnippetLanguage": "js-axios",
+  "thunder-client.htmlView": "Raw Html",
+  // "vim.insertModeKeyBindings": [
+  //     {
+  //         "before": ["i"],
+  //         "after": ["<Esc>"]
+  //     }
+  // ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "g",
+        "p",
+        "d"
+      ],
+      "commands": [
+        "editor.action.peekDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "h"
+      ],
+      "commands": [
+        "editor.action.showDefinitionPreviewHover"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "i"
+      ],
+      "commands": [
+        "editor.action.peekImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "q"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "t"
+      ],
+      "commands": [
+        "editor.action.goToTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "t"
+      ],
+      "commands": [
+        "editor.action.peekTypeDefinition"
+      ]
+    }
+  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.commandCenter": false,
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.menuBarVwsibility": "toggle",
+  "window.title": "ctrl+U, ctrl+D",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#00a1f9",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#50dba6",
+    "terminal.ansiBrightGreen": "#237207",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#ffc53c",
+    "terminal.ansiCyan": "#1bd2d8", // branch
+    "terminal.ansiGreen": "#71dd32", // profile name
+    "terminal.ansiMagenta": "#ff6b84", // spec
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#fbff00", // route
+    // "terminal.background": "#000000",
+    "terminal.foreground": "#dddddd"
+  },
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.renderIndentGuides": "none"
+}
