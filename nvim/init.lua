@@ -212,6 +212,21 @@ require("lazy").setup({
 			vim.cmd("colorscheme gruvbox")
 		end,
 	},
+
+	-- copilot
+	{
+		"github/copilot.vim",
+		event = "InsertEnter",
+	},
+})
+
+-- Accept copilot suggestions son F1
+vim.g.copilot_no_tab_map = true
+vim.keymap.set("i", "<F1>", 'copilot#Accept("<CR>")', {
+	expr = true,
+	silent = true,
+	script = true,
+	desc = "Copilot: Accept suggestion",
 })
 
 -- vscode ctrl + shift + F
